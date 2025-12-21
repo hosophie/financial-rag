@@ -1,0 +1,267 @@
+2025-12-03 18:01:58,662 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:01:58,852 - INFO - Going to convert document batch...
+2025-12-03 18:01:58,853 - INFO - Initializing pipeline for StandardPdfPipeline with options hash 18dfd969b03a0f79464fa74f8e300629
+2025-12-03 18:01:58,862 - INFO - Loading plugin 'docling_defaults'
+2025-12-03 18:01:58,864 - WARNING - The plugin langchain_docling will not be loaded because Docling is being executed with allow_external_plugins=false.
+2025-12-03 18:01:58,864 - INFO - Registered picture descriptions: ['vlm', 'api']
+2025-12-03 18:01:58,873 - INFO - Loading plugin 'docling_defaults'
+2025-12-03 18:01:58,875 - WARNING - The plugin langchain_docling will not be loaded because Docling is being executed with allow_external_plugins=false.
+2025-12-03 18:01:58,875 - INFO - Registered ocr engines: ['auto', 'easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-12-03 18:01:58,875 - INFO - rapidocr cannot be used because onnxruntime is not installed.
+2025-12-03 18:01:58,876 - INFO - easyocr cannot be used because it is not installed.
+2025-12-03 18:01:59,203 - INFO - Accelerator device: 'cuda:0'
+[32m[INFO] 2025-12-03 18:01:59,236 [RapidOCR] base.py:22: Using engine_name: torch[0m
+[32m[INFO] 2025-12-03 18:01:59,256 [RapidOCR] download_file.py:60: File exists and is valid: /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_PP-OCRv4_det_infer.pth[0m
+[32m[INFO] 2025-12-03 18:01:59,256 [RapidOCR] torch.py:54: Using /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_PP-OCRv4_det_infer.pth[0m
+[32m[INFO] 2025-12-03 18:01:59,980 [RapidOCR] base.py:22: Using engine_name: torch[0m
+[32m[INFO] 2025-12-03 18:01:59,981 [RapidOCR] download_file.py:60: File exists and is valid: /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_ptocr_mobile_v2.0_cls_infer.pth[0m
+[32m[INFO] 2025-12-03 18:01:59,981 [RapidOCR] torch.py:54: Using /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_ptocr_mobile_v2.0_cls_infer.pth[0m
+[32m[INFO] 2025-12-03 18:02:00,121 [RapidOCR] base.py:22: Using engine_name: torch[0m
+[32m[INFO] 2025-12-03 18:02:00,156 [RapidOCR] download_file.py:60: File exists and is valid: /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_PP-OCRv4_rec_infer.pth[0m
+[32m[INFO] 2025-12-03 18:02:00,156 [RapidOCR] torch.py:54: Using /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_PP-OCRv4_rec_infer.pth[0m
+2025-12-03 18:02:00,477 - INFO - Auto OCR model selected rapidocr with torch.
+2025-12-03 18:02:00,482 - INFO - Accelerator device: 'cuda:0'
+2025-12-03 18:02:02,550 - INFO - Accelerator device: 'cuda:0'
+2025-12-03 18:02:03,130 - INFO - Processing document 万科年报.pdf
+2025-12-03 18:08:03,987 - INFO - Finished converting document 万科年报.pdf in 365.33 sec.
+2025-12-03 18:08:50,332 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:08:50,356 - INFO - Going to convert document batch...
+2025-12-03 18:08:50,356 - INFO - Processing document 三峡能源年报.pdf
+2025-12-03 18:14:16,959 - INFO - Finished converting document 三峡能源年报.pdf in 326.63 sec.
+2025-12-03 18:15:11,068 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:15:11,182 - INFO - Going to convert document batch...
+2025-12-03 18:15:11,183 - INFO - Processing document 东方财富年报.pdf
+2025-12-03 18:18:24,011 - INFO - Finished converting document 东方财富年报.pdf in 192.95 sec.
+2025-12-03 18:18:51,326 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:18:51,337 - INFO - Going to convert document batch...
+2025-12-03 18:18:51,337 - INFO - Processing document 中加国信2025-2026中期报告.pdf
+2025-12-03 18:21:36,524 - INFO - Finished converting document 中加国信2025-2026中期报告.pdf in 165.20 sec.
+2025-12-03 18:21:44,026 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:21:44,027 - INFO - Going to convert document batch...
+2025-12-03 18:21:44,028 - INFO - Processing document 中国交建调整2025分红方案公告.pdf
+2025-12-03 18:21:44,742 - INFO - Finished converting document 中国交建调整2025分红方案公告.pdf in 0.72 sec.
+2025-12-03 18:21:44,817 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:21:44,873 - INFO - Going to convert document batch...
+2025-12-03 18:21:44,874 - INFO - Processing document 中国平安年报.pdf
+2025-12-03 18:22:17,365 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:22:19,102 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:22:19,916 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:22:21,975 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:22:21,975 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:22:23,926 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:22:23,926 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:22:59,675 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:23:15,286 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:23:16,096 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:23:23,522 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:23:27,124 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:24:39,829 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:27:38,281 - INFO - Finished converting document 中国平安年报.pdf in 353.47 sec.
+2025-12-03 18:28:21,375 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:28:21,453 - INFO - Going to convert document batch...
+2025-12-03 18:28:21,453 - INFO - Processing document 中国石油年报.pdf
+2025-12-03 18:29:53,273 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:29:54,271 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:29:54,810 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:29:58,351 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:31:43,333 - INFO - Finished converting document 中国石油年报.pdf in 201.97 sec.
+2025-12-03 18:32:12,447 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:32:12,449 - INFO - Going to convert document batch...
+2025-12-03 18:32:12,449 - INFO - Processing document 中国科教产业年度业绩公告.pdf
+2025-12-03 18:32:29,357 - INFO - Finished converting document 中国科教产业年度业绩公告.pdf in 16.91 sec.
+2025-12-03 18:32:33,236 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:32:33,295 - INFO - Going to convert document batch...
+2025-12-03 18:32:33,296 - INFO - Processing document 中金公司年报.pdf
+2025-12-03 18:38:05,310 - INFO - Finished converting document 中金公司年报.pdf in 332.08 sec.
+2025-12-03 18:38:50,420 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:38:50,431 - INFO - Going to convert document batch...
+2025-12-03 18:38:50,431 - INFO - Processing document 京东年报.pdf
+2025-12-03 18:40:54,202 - INFO - Finished converting document 京东年报.pdf in 123.78 sec.
+2025-12-03 18:41:17,006 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:41:17,074 - INFO - Going to convert document batch...
+2025-12-03 18:41:17,074 - INFO - Processing document 华为2024年报.pdf
+2025-12-03 18:41:22,474 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:41:24,054 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:41:24,055 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:33,649 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:36,623 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:41:40,476 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:41:40,476 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:41,568 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:42,558 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:44,240 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:46,376 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:47,918 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:48,642 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:41:49,148 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:41:53,276 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:41:53,276 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:41:54,178 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:41:54,178 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:13,145 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:14,553 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:15,357 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:16,147 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:17,950 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:18,050 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:18,050 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:18,435 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:18,671 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:18,671 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:18,771 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:18,771 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:19,180 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:19,602 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:20,086 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:20,158 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:20,158 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:20,711 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:20,779 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:20,779 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:21,195 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:21,261 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:21,261 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:21,705 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:22,108 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:23,354 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:23,593 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:23,593 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:23,658 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:23,658 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:23,726 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:23,727 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:23,792 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:23,792 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:24,191 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:24,588 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:25,374 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:25,375 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:26,191 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:26,591 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:26,981 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:32,469 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:32,634 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:32,634 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:33,404 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:35,745 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:36,836 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:38,019 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:42:38,562 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 18:42:44,591 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 18:42:44,591 - WARNING - RapidOCR returned empty result!
+2025-12-03 18:43:06,354 - INFO - Finished converting document 华为2024年报.pdf in 109.37 sec.
+2025-12-03 18:43:14,386 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:43:14,407 - INFO - Going to convert document batch...
+2025-12-03 18:43:14,407 - INFO - Processing document 华泰证券年报.pdf
+2025-12-03 18:48:35,271 - INFO - Finished converting document 华泰证券年报.pdf in 320.89 sec.
+2025-12-03 18:49:19,457 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:49:19,460 - INFO - Going to convert document batch...
+2025-12-03 18:49:19,460 - INFO - Processing document 名创优品股权回购公告.pdf
+2025-12-03 18:49:21,639 - INFO - Finished converting document 名创优品股权回购公告.pdf in 2.18 sec.
+2025-12-03 18:49:22,168 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:49:22,240 - INFO - Going to convert document batch...
+2025-12-03 18:49:22,241 - INFO - Processing document 大洋环球控股中期报告.pdf
+2025-12-03 18:49:57,408 - INFO - Finished converting document 大洋环球控股中期报告.pdf in 35.24 sec.
+2025-12-03 18:50:00,362 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:50:00,364 - INFO - Going to convert document batch...
+2025-12-03 18:50:00,364 - INFO - Processing document 天域生物三季度报告.pdf
+2025-12-03 18:50:13,999 - INFO - Finished converting document 天域生物三季度报告.pdf in 13.64 sec.
+2025-12-03 18:50:17,212 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:50:17,232 - INFO - Going to convert document batch...
+2025-12-03 18:50:17,232 - INFO - Processing document 宝钢年报.pdf
+2025-12-03 18:53:50,342 - INFO - Finished converting document 宝钢年报.pdf in 213.13 sec.
+2025-12-03 18:54:21,694 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:54:21,703 - INFO - Going to convert document batch...
+2025-12-03 18:54:21,703 - INFO - Processing document 小米年报.pdf
+2025-12-03 18:57:16,021 - INFO - Finished converting document 小米年报.pdf in 174.33 sec.
+2025-12-03 18:57:47,025 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 18:57:47,062 - INFO - Going to convert document batch...
+2025-12-03 18:57:47,063 - INFO - Processing document 工商银行年报.pdf
+2025-12-03 19:02:22,042 - INFO - Finished converting document 工商银行年报.pdf in 275.02 sec.
+2025-12-03 19:03:04,471 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:03:04,518 - INFO - Going to convert document batch...
+2025-12-03 19:03:04,518 - INFO - Processing document 恒瑞医药2024年度报告.pdf
+2025-12-03 19:06:42,507 - INFO - Finished converting document 恒瑞医药2024年度报告.pdf in 218.04 sec.
+2025-12-03 19:07:12,130 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:07:12,151 - INFO - Going to convert document batch...
+2025-12-03 19:07:12,152 - INFO - Processing document 新威工程集团中期报告.pdf
+2025-12-03 19:08:06,183 - INFO - Finished converting document 新威工程集团中期报告.pdf in 54.06 sec.
+2025-12-03 19:08:09,023 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:08:09,038 - INFO - Going to convert document batch...
+2025-12-03 19:08:09,039 - INFO - Processing document 易生活年报.pdf
+2025-12-03 19:10:23,123 - INFO - Finished converting document 易生活年报.pdf in 134.10 sec.
+2025-12-03 19:10:41,389 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:10:41,460 - INFO - Going to convert document batch...
+2025-12-03 19:10:41,460 - INFO - Processing document 格力年报.pdf
+2025-12-03 19:14:22,686 - INFO - Finished converting document 格力年报.pdf in 221.30 sec.
+2025-12-03 19:14:57,415 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:14:57,421 - INFO - Going to convert document batch...
+2025-12-03 19:14:57,422 - INFO - Processing document 正利控股中期业绩报告.pdf
+2025-12-03 19:15:09,287 - INFO - Finished converting document 正利控股中期业绩报告.pdf in 11.88 sec.
+2025-12-03 19:15:11,832 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:15:12,102 - INFO - Going to convert document batch...
+2025-12-03 19:15:12,103 - INFO - Processing document 比亚迪年报.pdf
+2025-12-03 19:15:27,439 - WARNING - RapidOCR returned empty result!
+2025-12-03 19:15:32,995 - WARNING - RapidOCR returned empty result!
+2025-12-03 19:15:36,555 - WARNING - RapidOCR returned empty result!
+2025-12-03 19:19:12,252 - INFO - Finished converting document 比亚迪年报.pdf in 240.42 sec.
+2025-12-03 19:19:51,251 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:19:51,268 - INFO - Going to convert document batch...
+2025-12-03 19:19:51,269 - INFO - Processing document 美团半年报.pdf
+2025-12-03 19:24:22,142 - INFO - Finished converting document 美团半年报.pdf in 270.89 sec.
+2025-12-03 19:24:41,422 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:24:41,430 - INFO - Going to convert document batch...
+2025-12-03 19:24:41,431 - INFO - Processing document 美团年报.pdf
+2025-12-03 19:33:58,463 - INFO - Finished converting document 美团年报.pdf in 557.04 sec.
+2025-12-03 19:34:22,420 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:34:22,527 - INFO - Going to convert document batch...
+2025-12-03 19:34:22,528 - INFO - Processing document 美的年报.pdf
+2025-12-03 19:38:21,936 - INFO - Finished converting document 美的年报.pdf in 239.52 sec.
+2025-12-03 19:38:59,646 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:38:59,703 - INFO - Going to convert document batch...
+2025-12-03 19:38:59,704 - INFO - Processing document 贵州茅台年报.pdf
+2025-12-03 19:41:36,346 - INFO - Finished converting document 贵州茅台年报.pdf in 156.70 sec.
+2025-12-03 19:42:00,968 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:42:00,984 - INFO - Going to convert document batch...
+2025-12-03 19:42:00,985 - INFO - Processing document 达力集团年报.pdf
+2025-12-03 19:44:49,209 - INFO - Finished converting document 达力集团年报.pdf in 168.24 sec.
+2025-12-03 19:45:00,798 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:45:00,822 - INFO - Going to convert document batch...
+2025-12-03 19:45:00,822 - INFO - Processing document 隆基绿能年报.pdf
+[33m[WARNING] 2025-12-03 19:45:09,904 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 19:45:09,905 - WARNING - RapidOCR returned empty result!
+2025-12-03 19:48:47,386 - INFO - Finished converting document 隆基绿能年报.pdf in 226.59 sec.
+2025-12-03 19:49:21,271 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-03 19:49:21,325 - INFO - Going to convert document batch...
+2025-12-03 19:49:21,325 - INFO - Processing document 顺丰年报.pdf
+2025-12-03 19:49:29,848 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-03 19:49:31,432 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-03 19:49:31,432 - WARNING - RapidOCR returned empty result!
+2025-12-03 19:55:44,192 - INFO - Finished converting document 顺丰年报.pdf in 382.94 sec.
+2025-12-03 19:56:14,923 - INFO - Load pretrained SentenceTransformer: ./models/qwen3-embedding-0.6b
+2025-12-03 19:56:16,146 - INFO - 1 prompt is loaded, with the key: query
+2025-12-03 20:16:11,565 - INFO - Loading faiss with AVX512 support.
+2025-12-03 20:16:11,629 - INFO - Successfully loaded faiss with AVX512 support.
+Processing 31 files...
+Generated 30968 document chunks
+
+Random preview (3 chunks):
+
+--- Chunk 1 ---
+Content: 5）从关联方取得和支付的利息
+单位：人民币千元
+宝武财务公司, 关联交易内容 = 存款利息收入. 宝武财务公司, 2024年 = 220,479. 宝武财务公司, 2023年 = 222,658. 宝...
+Metadata: {'source': '../document/宝钢年报.pdf', 'dl_meta': {'schema_name': 'docling_core.transforms.chunker.DocMeta', 'version': '1.0.0', 'doc_items': [{'self_ref': '#/texts/3030', 'parent': {'$ref': '#/body'}, 'children': [], 'content_layer': 'body', 'label': 'text', 'prov': [{'page_no': 254, 'bbox': {'l': 447.48, 't': 632.7450244140625, 'r': 531.368, 'b': 622.3470244140625, 'coord_origin': 'BOTTOMLEFT'}, 'charspan': [0, 8]}]}, {'self_ref': '#/tables/367', 'parent': {'$ref': '#/body'}, 'children': [], 'content_layer': 'body', 'label': 'table', 'prov': [{'page_no': 254, 'bbox': {'l': 83.45233154296875, 't': 620.94384765625, 'r': 537.248046875, 'b': 577.4355773925781, 'coord_origin': 'BOTTOMLEFT'}, 'charspan': [0, 0]}]}], 'headings': ['5）从关联方取得和支付的利息'], 'origin': {'mimetype': 'application/pdf', 'binary_hash': 6475463044924959658, 'filename': '宝钢年报.pdf'}}}
+
+--- Chunk 2 ---
+Content: ⏊ἷ㫌䚌孌⊗堪
+㛮℮⎺㒃㛋Ṽㆋ἖.⃴⁛.ℸẘ⃴⁛ 灭昆姽 26 灮.Ṽ㯓⸥⌅℅ = (2,493,210). 冬偣ế姊≅ᾣ姙憍㔀㘰応偣, 㛮℮⎺㒃㛋Ṽㆋ἖.⃴⁛.ᾟ䔛䚊⇫.Ṽ㯓⸥⌅℅ = Ƹ. 冬偣ế...
+Metadata: {'source': '../document/小米年报.pdf', 'dl_meta': {'schema_name': 'docling_core.transforms.chunker.DocMeta', 'version': '1.0.0', 'doc_items': [{'self_ref': '#/tables/64', 'parent': {'$ref': '#/body'}, 'children': [], 'content_layer': 'body', 'label': 'table', 'prov': [{'page_no': 235, 'bbox': {'l': 69.73986053466797, 't': 596.0632781982422, 'r': 524.325439453125, 'b': 207.66290283203125, 'coord_origin': 'BOTTOMLEFT'}, 'charspan': [0, 0]}]}], 'headings': ['⏊ἷ㫌䚌孌⊗堪'], 'origin': {'mimetype': 'application/pdf', 'binary_hash': 17160717317647294342, 'filename': '小米年报.pdf'}}}
+
+--- Chunk 3 ---
+Content: 未分派股息的預提稅
+於 2022 年前，本公司並無就其在中國內地的外商投資企業的保留盈利錄得任何股息預提稅，原因是本 公司擬將中國內地業務所有利潤繼續納入投資以進⼀步擴大在中國內地的業務，且其外商投資...
+Metadata: {'source': '../document/京东年报.pdf', 'dl_meta': {'schema_name': 'docling_core.transforms.chunker.DocMeta', 'version': '1.0.0', 'doc_items': [{'self_ref': '#/texts/3583', 'parent': {'$ref': '#/body'}, 'children': [], 'content_layer': 'body', 'label': 'text', 'prov': [{'page_no': 336, 'bbox': {'l': 102.056, 't': 381.5310234375, 'r': 538.599, 'b': 345.4640234375, 'coord_origin': 'BOTTOMLEFT'}, 'charspan': [0, 115]}]}, {'self_ref': '#/texts/3584', 'parent': {'$ref': '#/body'}, 'children': [], 'content_layer': 'body', 'label': 'text', 'prov': [{'page_no': 336, 'bbox': {'l': 102.056, 't': 325.5240234375, 'r': 538.646, 'b': 247.4450234374999, 'coord_origin': 'BOTTOMLEFT'}, 'charspan': [0, 298]}]}], 'headings': ['未分派股息的預提稅'], 'origin': {'mimetype': 'application/pdf', 'binary_hash': 14851425039474297967, 'filename': '京东年报.pdf'}}}
+Building FAISS index with 30968 chunks...
+Vector store saved to: faiss_db_eqwen/
+Done!

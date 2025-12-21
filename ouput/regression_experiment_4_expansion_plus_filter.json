@@ -1,0 +1,444 @@
+{
+  "test_metadata": {
+    "baseline_file": "./output/test_experiment_0_baseline.json",
+    "current_file": "./output/test__experiment_4_expansion_plus_filter.json",
+    "test_timestamp": "2025-12-10T22:43:29.737204",
+    "baseline_samples": 13,
+    "current_samples": 9,
+    "overall_status": "WARNING"
+  },
+  "configuration_comparison": {
+    "baseline_config": {
+      "name": "baseline",
+      "top_k": 50,
+      "rerank_top_k": 5,
+      "use_query_expansion": false,
+      "use_hyde": false,
+      "use_doc_filter": false,
+      "use_refine_generation": false,
+      "system_config": {
+        "use_vllm": false,
+        "faiss_db_path": "faiss_db_qwen",
+        "embed_model_id": "./models/qwen3-embedding-0.6b",
+        "local_llm_path": "./models/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+        "page_tolerance": 1
+      }
+    },
+    "current_config": {
+      "name": "expansion_plus_filter",
+      "top_k": 50,
+      "rerank_top_k": 5,
+      "use_query_expansion": true,
+      "expansion_count": 3,
+      "use_hyde": false,
+      "use_doc_filter": true,
+      "use_refine_generation": false,
+      "system_config": {
+        "use_vllm": false,
+        "faiss_db_path": "faiss_db_qwen",
+        "embed_model_id": "./models/qwen3-embedding-0.6b",
+        "local_llm_path": "./models/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+        "page_tolerance": 1
+      }
+    }
+  },
+  "summary_metrics_comparison": {
+    "initial_retrieval_hit_rate": {
+      "baseline_value": 0.7692,
+      "current_value": 0.4444,
+      "delta": -0.3248,
+      "delta_percent": -42.22,
+      "threshold": -0.1,
+      "status": "REGRESSION",
+      "severity": "CRITICAL"
+    },
+    "reranked_hit_rate": {
+      "baseline_value": 0.4615,
+      "current_value": 0.3333,
+      "delta": -0.1282,
+      "delta_percent": -27.78,
+      "threshold": -0.1,
+      "status": "REGRESSION",
+      "severity": "WARNING"
+    },
+    "latency": {
+      "baseline_value": 9.575,
+      "current_value": 25.1217,
+      "delta": 15.5468,
+      "status": "INFO"
+    }
+  },
+  "regression_summary": {
+    "total_regressions": 2,
+    "total_warnings": 0,
+    "total_improvements": 0,
+    "regressions": [
+      {
+        "metric": "initial_retrieval_hit_rate",
+        "severity": "CRITICAL",
+        "delta": -0.3248,
+        "delta_percent": -42.22
+      },
+      {
+        "metric": "reranked_hit_rate",
+        "severity": "WARNING",
+        "delta": -0.1282,
+        "delta_percent": -27.78
+      }
+    ],
+    "warnings": [],
+    "improvements": []
+  },
+  "per_question_comparison": [
+    {
+      "question_index": 0,
+      "question": "万科2024年总体经营情况如何？",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": 0.8333,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.919,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": 1.0,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_recall": {
+          "baseline": NaN,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": false,
+          "current": false,
+          "changed": false
+        },
+        "reranked_hit": {
+          "baseline": false,
+          "current": false,
+          "changed": false
+        }
+      }
+    },
+    {
+      "question_index": 1,
+      "question": "2024 年钢铁行业相关政策主要集中在哪些方面？请分别列举各方面的核心政策及整体政策带来的影响。",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": 0.8333,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.9423,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": 0.95,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_recall": {
+          "baseline": 1.0,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": true,
+          "current": true,
+          "changed": false
+        },
+        "reranked_hit": {
+          "baseline": true,
+          "current": true,
+          "changed": false
+        }
+      }
+    },
+    {
+      "question_index": 2,
+      "question": "正利控股截至2025年9月30日止六个月的收入是多少？",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": 1.0,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.9028,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": 0.75,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_recall": {
+          "baseline": 1.0,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": true,
+          "current": true,
+          "changed": false
+        },
+        "reranked_hit": {
+          "baseline": true,
+          "current": true,
+          "changed": false
+        }
+      }
+    },
+    {
+      "question_index": 3,
+      "question": "比亚迪集团旗下有哪些汽车品牌？各品牌的定位及 2024 年推出的主要车型有哪些？",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": 0.8125,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.8764,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": 0.5833,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_recall": {
+          "baseline": 0.6,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": true,
+          "current": true,
+          "changed": false
+        },
+        "reranked_hit": {
+          "baseline": true,
+          "current": true,
+          "changed": false
+        }
+      }
+    },
+    {
+      "question_index": 4,
+      "question": "2024年宝钢股份的主要财务数据表现如何？",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": NaN,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.8815,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": 0.0,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_recall": {
+          "baseline": 0.0,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": true,
+          "current": false,
+          "changed": true
+        },
+        "reranked_hit": {
+          "baseline": false,
+          "current": false,
+          "changed": false
+        }
+      }
+    },
+    {
+      "question_index": 5,
+      "question": "比亚迪2024年的营收和利润情况如何？",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": 0.9,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.8917,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": 0.3667,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_recall": {
+          "baseline": 0.0,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": true,
+          "current": false,
+          "changed": true
+        },
+        "reranked_hit": {
+          "baseline": false,
+          "current": false,
+          "changed": false
+        }
+      }
+    },
+    {
+      "question_index": 6,
+      "question": "达力集团2024-2025财政年度的业绩表现及主要亏损原因是什么？",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": NaN,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.9211,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": NaN,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_recall": {
+          "baseline": 0.0,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": true,
+          "current": true,
+          "changed": false
+        },
+        "reranked_hit": {
+          "baseline": false,
+          "current": false,
+          "changed": false
+        }
+      }
+    },
+    {
+      "question_index": 7,
+      "question": "2024年东方财富在研发方面的投入及其人员构成情况如何？",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": 0.8824,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.9358,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": 0.0,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_recall": {
+          "baseline": 0.5,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": true,
+          "current": false,
+          "changed": true
+        },
+        "reranked_hit": {
+          "baseline": true,
+          "current": false,
+          "changed": true
+        }
+      }
+    },
+    {
+      "question_index": 8,
+      "question": "格力电器2024年的利润分配预案是怎样的？",
+      "metrics_comparison": {
+        "faithfulness": {
+          "baseline": 1.0,
+          "current": NaN,
+          "delta": NaN
+        },
+        "answer_relevancy": {
+          "baseline": 0.9283,
+          "current": NaN,
+          "delta": NaN
+        },
+        "context_precision": {
+          "baseline": 0.3333,
+          "current": 0.0,
+          "delta": -0.3333
+        },
+        "context_recall": {
+          "baseline": 0.0,
+          "current": NaN,
+          "delta": NaN
+        }
+      },
+      "hit_analysis_comparison": {
+        "initial_retrieval_hit": {
+          "baseline": true,
+          "current": false,
+          "changed": true
+        },
+        "reranked_hit": {
+          "baseline": false,
+          "current": false,
+          "changed": false
+        }
+      }
+    }
+  ],
+  "thresholds_used": {
+    "faithfulness": -0.05,
+    "answer_relevancy": -0.05,
+    "context_precision": -0.05,
+    "context_recall": -0.05,
+    "initial_retrieval_hit_rate": -0.1,
+    "reranked_hit_rate": -0.1
+  }
+}

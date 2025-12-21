@@ -1,0 +1,68 @@
+{
+  "experiment_0_baseline": {
+    "name": "baseline",
+    "top_k": 50,
+    "rerank_top_k": 5,
+    "use_query_expansion": false,
+    "use_hyde": false,
+    "use_doc_filter": false,
+    "use_refine_generation": false
+  },
+  "experiment_1_query_expansion": {
+    "name": "query_expansion",
+    "top_k": 50,
+    "rerank_top_k": 5,
+    "use_query_expansion": true,
+    "expansion_count": 3,
+    "use_hyde": false,
+    "use_doc_filter": false,
+    "use_refine_generation": false
+  },
+  "experiment_2_hyde": {
+    "name": "hyde",
+    "top_k": 50,
+    "rerank_top_k": 5,
+    "use_query_expansion": false,
+    "use_hyde": true,
+    "use_doc_filter": false,
+    "use_refine_generation": false
+  },
+  "experiment_3_doc_filter": {
+    "name": "doc_filter",
+    "top_k": 50,
+    "rerank_top_k": 5,
+    "use_query_expansion": false,
+    "use_hyde": false,
+    "use_doc_filter": true,
+    "use_refine_generation": false
+  },
+  "experiment_4_expansion_plus_filter": {
+    "name": "expansion_plus_filter",
+    "top_k": 50,
+    "rerank_top_k": 5,
+    "use_query_expansion": true,
+    "expansion_count": 3,
+    "use_hyde": false,
+    "use_doc_filter": true,
+    "use_refine_generation": false
+  },
+  "experiment_5_refine_generation": {
+    "name": "refine_generation",
+    "top_k": 50,
+    "rerank_top_k": 5,
+    "use_query_expansion": false,
+    "use_hyde": false,
+    "use_doc_filter": false,
+    "use_refine_generation": true
+  },
+  "experiment_6_full_pipeline": {
+    "name": "full_pipeline",
+    "top_k": 50,
+    "rerank_top_k": 5,
+    "use_query_expansion": true,
+    "expansion_count": 2,
+    "use_hyde": false,
+    "use_doc_filter": true,
+    "use_refine_generation": true
+  }
+}

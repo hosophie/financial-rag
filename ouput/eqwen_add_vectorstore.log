@@ -1,0 +1,76 @@
+2025-12-05 14:52:47,029 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-05 14:52:47,047 - INFO - Going to convert document batch...
+2025-12-05 14:52:47,047 - INFO - Initializing pipeline for StandardPdfPipeline with options hash 18dfd969b03a0f79464fa74f8e300629
+2025-12-05 14:52:47,057 - INFO - Loading plugin 'docling_defaults'
+2025-12-05 14:52:47,058 - WARNING - The plugin langchain_docling will not be loaded because Docling is being executed with allow_external_plugins=false.
+2025-12-05 14:52:47,058 - INFO - Registered picture descriptions: ['vlm', 'api']
+2025-12-05 14:52:47,068 - INFO - Loading plugin 'docling_defaults'
+2025-12-05 14:52:47,070 - WARNING - The plugin langchain_docling will not be loaded because Docling is being executed with allow_external_plugins=false.
+2025-12-05 14:52:47,070 - INFO - Registered ocr engines: ['auto', 'easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-12-05 14:52:47,071 - INFO - rapidocr cannot be used because onnxruntime is not installed.
+2025-12-05 14:52:47,071 - INFO - easyocr cannot be used because it is not installed.
+2025-12-05 14:52:47,629 - INFO - Accelerator device: 'cuda:0'
+[32m[INFO] 2025-12-05 14:52:47,664 [RapidOCR] base.py:22: Using engine_name: torch[0m
+[32m[INFO] 2025-12-05 14:52:47,685 [RapidOCR] download_file.py:60: File exists and is valid: /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_PP-OCRv4_det_infer.pth[0m
+[32m[INFO] 2025-12-05 14:52:47,685 [RapidOCR] torch.py:54: Using /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_PP-OCRv4_det_infer.pth[0m
+[32m[INFO] 2025-12-05 14:52:48,167 [RapidOCR] base.py:22: Using engine_name: torch[0m
+[32m[INFO] 2025-12-05 14:52:48,168 [RapidOCR] download_file.py:60: File exists and is valid: /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_ptocr_mobile_v2.0_cls_infer.pth[0m
+[32m[INFO] 2025-12-05 14:52:48,168 [RapidOCR] torch.py:54: Using /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_ptocr_mobile_v2.0_cls_infer.pth[0m
+[32m[INFO] 2025-12-05 14:52:48,297 [RapidOCR] base.py:22: Using engine_name: torch[0m
+[32m[INFO] 2025-12-05 14:52:48,329 [RapidOCR] download_file.py:60: File exists and is valid: /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_PP-OCRv4_rec_infer.pth[0m
+[32m[INFO] 2025-12-05 14:52:48,329 [RapidOCR] torch.py:54: Using /root/miniconda3/envs/llm/lib/python3.10/site-packages/rapidocr/models/ch_PP-OCRv4_rec_infer.pth[0m
+2025-12-05 14:52:48,652 - INFO - Auto OCR model selected rapidocr with torch.
+2025-12-05 14:52:48,658 - INFO - Accelerator device: 'cuda:0'
+2025-12-05 14:52:50,789 - INFO - Accelerator device: 'cuda:0'
+2025-12-05 14:52:51,241 - INFO - Processing document 基金投资一百问.pdf
+2025-12-05 14:52:57,163 - INFO - Finished converting document 基金投资一百问.pdf in 10.13 sec.
+2025-12-05 14:52:57,594 - INFO - detected formats: [<InputFormat.MD: 'md'>]
+2025-12-05 14:52:57,595 - INFO - Going to convert document batch...
+2025-12-05 14:52:57,595 - INFO - Initializing pipeline for SimplePipeline with options hash b740db6cb59a73d1b7bf4e961665210b
+2025-12-05 14:52:57,595 - INFO - Processing document 证券市场事件解读知识库_AE.md
+2025-12-05 14:52:57,867 - INFO - Finished converting document 证券市场事件解读知识库_AE.md in 0.27 sec.
+2025-12-05 14:52:58,375 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-05 14:52:58,477 - INFO - Going to convert document batch...
+2025-12-05 14:52:58,478 - INFO - Processing document 阿里巴巴集團控股有限公司2024財務年度報告.pdf
+2025-12-05 14:58:23,199 - WARNING - RapidOCR returned empty result!
+2025-12-05 14:58:29,917 - WARNING - RapidOCR returned empty result!
+2025-12-05 14:58:31,544 - WARNING - RapidOCR returned empty result!
+2025-12-05 14:58:35,502 - WARNING - RapidOCR returned empty result!
+[33m[WARNING] 2025-12-05 14:58:38,414 [RapidOCR] main.py:123: The text detection result is empty[0m
+2025-12-05 14:58:38,414 - WARNING - RapidOCR returned empty result!
+2025-12-05 14:59:19,609 - INFO - Finished converting document 阿里巴巴集團控股有限公司2024財務年度報告.pdf in 381.26 sec.
+2025-12-05 14:59:38,687 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-12-05 14:59:38,718 - INFO - Going to convert document batch...
+2025-12-05 14:59:38,719 - INFO - Processing document 阿里巴巴集團控股有限公司2025財務年度報告.pdf
+2025-12-05 15:01:09,765 - WARNING - RapidOCR returned empty result!
+2025-12-05 15:01:11,326 - WARNING - RapidOCR returned empty result!
+2025-12-05 15:01:15,273 - WARNING - RapidOCR returned empty result!
+2025-12-05 15:01:18,269 - WARNING - RapidOCR returned empty result!
+2025-12-05 15:01:18,670 - WARNING - RapidOCR returned empty result!
+2025-12-05 15:02:16,646 - INFO - Finished converting document 阿里巴巴集團控股有限公司2025財務年度報告.pdf in 157.96 sec.
+2025-12-05 15:02:39,379 - INFO - Load pretrained SentenceTransformer: ./models/qwen3-embedding-0.6b
+2025-12-05 15:02:40,422 - INFO - 1 prompt is loaded, with the key: query
+2025-12-05 15:02:40,423 - INFO - Loading faiss with AVX512 support.
+2025-12-05 15:02:40,446 - INFO - Successfully loaded faiss with AVX512 support.
+Processing 4 files...
+Generated 3011 document chunks
+
+Random preview (3 chunks):
+
+--- Chunk 1 ---
+Content: 我們交易市場上的商家或消費者與受制裁國家或受制裁人士的業務活動或聯繫可能導致我們聲譽受損或承擔責任， 以及導致我們的美國存託股、股份和╱或其他證券的交易價格顯著下跌
+我們已經為確保遵守這些經濟和貿易限...
+Metadata: {'source': '../document_add/阿里巴巴集團控股有限公司2025財務年度報告.pdf', 'dl_meta': {'schema_name': 'docling_core.transforms.chunker.DocMeta', 'version': '1.0.0', 'doc_items': [{'self_ref': '#/texts/1589', 'parent': {'$ref': '#/body'}, 'children': [], 'content_layer': 'body', 'label': 'text', 'prov': [{'page_no': 116, 'bbox': {'l': 56.702, 't': 236.33601464843753, 'r': 538.728, 'b': 116.65701464843755, 'coord_origin': 'BOTTOMLEFT'}, 'charspan': [0, 410]}]}], 'headings': ['我們交易市場上的商家或消費者與受制裁國家或受制裁人士的業務活動或聯繫可能導致我們聲譽受損或承擔責任， 以及導致我們的美國存託股、股份和╱或其他證券的交易價格顯著下跌'], 'origin': {'mimetype': 'application/pdf', 'binary_hash': 5056331248241963394, 'filename': '阿里巴巴集團控股有限公司2025財務年度報告.pdf'}}}
+
+--- Chunk 2 ---
+Content: 35. 美國公認會計準則與國際財務報告準則的對賬 （續）
+權益法 核算的投資 (iii).（人民幣百萬元） = -. 銷售和市場費用, 股權激勵 (iv).（人民幣百萬元） = (779). 銷售和市...
+Metadata: {'source': '../document_add/阿里巴巴集團控股有限公司2025財務年度報告.pdf', 'dl_meta': {'schema_name': 'docling_core.transforms.chunker.DocMeta', 'version': '1.0.0', 'doc_items': [{'self_ref': '#/tables/127', 'parent': {'$ref': '#/body'}, 'children': [], 'content_layer': 'body', 'label': 'table', 'prov': [{'page_no': 319, 'bbox': {'l': 78.0720443725586, 't': 671.4579620361328, 'r': 539.3728637695312, 'b': 337.32391357421875, 'coord_origin': 'BOTTOMLEFT'}, 'charspan': [0, 0]}]}], 'headings': ['35. 美國公認會計準則與國際財務報告準則的對賬 （續）'], 'origin': {'mimetype': 'application/pdf', 'binary_hash': 5056331248241963394, 'filename': '阿里巴巴集團控股有限公司2025財務年度報告.pdf'}}}
+
+--- Chunk 3 ---
+Content: 投資未來
+最後，我們想說：阿里巴巴永遠關注未來。在過去的 25 年裡，阿里巴巴經歷了不斷成長，也出現了⼀些「大公司 病」 。在接下來的 10 年裡，我們將再次視自⼰為⼀家初創企業，堅守 「讓天下沒有難...
+Metadata: {'source': '../document_add/阿里巴巴集團控股有限公司2024財務年度報告.pdf', 'dl_meta': {'schema_name': 'docling_core.transforms.chunker.DocMeta', 'version': '1.0.0', 'doc_items': [{'self_ref': '#/texts/165', 'parent': {'$ref': '#/body'}, 'children': [], 'content_layer': 'body', 'label': 'text', 'prov': [{'page_no': 7, 'bbox': {'l': 651.978, 't': 366.5390146484375, 'r': 1133.947, 'b': 326.0930146484375, 'coord_origin': 'BOTTOMLEFT'}, 'charspan': [0, 143]}]}], 'headings': ['投資未來'], 'origin': {'mimetype': 'application/pdf', 'binary_hash': 17145847790653134008, 'filename': '阿里巴巴集團控股有限公司2024財務年度報告.pdf'}}}
+Adding 3011 chunks to existing vector store...
+Added 3011 chunks (total: 33979)
+Done!
