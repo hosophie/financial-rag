@@ -13,9 +13,6 @@ import torch
 import jieba
 from reranker_utils import rerank_documents, initialize_reranker
 
-# ============================================================================
-# 实验配置区 - 切换实验时注释/取消注释对应的 CONFIG
-# ============================================================================
 
 # # 实验 0: Baseline（基线）
 # CONFIG = {
@@ -106,7 +103,7 @@ FAISS_DB_PATH = "faiss_db_qwen"
 EMBED_MODEL_ID = "./models/qwen3-embedding-0.6b"
 # EMBED_MODEL_ID = "./models/hub/models--jinaai--jina-embeddings-v3/snapshots/f1944de8402dcd5f2b03f822a4bc22a7f2de2eb9"
 LOCAL_LLM_PATH = "./models/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28"
-USE_VLLM = False  # True=使用vLLM加速, False=使用HuggingFace Pipeline
+USE_VLLM = False
 
 # ============================================================================
 # Prompts
