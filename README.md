@@ -1,6 +1,6 @@
 ## Reproducibility Checklist
 
-* **Data Access**: Dataset is curated from public annual reports of 30+ listed corporations. Evaluation test cases are stored in `test_case-backup.csv`.
+* **Data Access**: Dataset is curated from public annual reports of 30+ corporations. Evaluation test cases are stored in `test_case-backup.csv`.
 * **Core Logic**: `build_vectorstore.py` handles preprocessing and indexing; `rag.py` contains the core RAG pipeline logic.
 * **Evaluation & Execution**: The pipeline is managed by `batch_test.py` and executed via `run.sh`. LLM **temperature is set to 0** to ensure deterministic outputs and maximum reproducibility.
 * **Environment**: Developed and tested on Ubuntu 22.04, CUDA 12.8, and Python 3.12 (see `environment.yml` for details).
