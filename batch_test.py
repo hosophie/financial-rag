@@ -19,8 +19,9 @@ except ImportError:
 from rag import RAGSystem
 
 # Set Environment Variables globally
-os.environ["OPENAI_API_KEY"] = "sk-zk232b67a8a05e6026a6fcf53148dca1fc065a62d0885020"
-os.environ["OPENAI_BASE_URL"] = "https://api.zhizengzeng.com/v1"
+# delete
+os.environ["OPENAI_API_KEY"] = ""
+os.environ["OPENAI_BASE_URL"] = ""
 
 # Hit Rate 配置：允许的页码误差范围（±N 页）
 PAGE_TOLERANCE = 1  # 0=严格匹配, 1=允许前后1页, 2=允许前后2页
