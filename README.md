@@ -1,3 +1,7 @@
+## overall-pipeline
+<img width="1480" height="680" alt="overall-pipeline" src="https://github.com/user-attachments/assets/a69e9929-a45b-44b1-b829-9d8f4cba7c03" />
+
+
 ## Reproducibility Checklist
 
 * **Data Access**: Dataset is curated from public annual reports of 30+ corporations. Evaluation test cases are stored in `test_case-backup.csv`.
@@ -21,3 +25,4 @@ Experiment parameters, such as model paths and retrieval settings, are managed i
 Use the provided shell script to run the evaluation pipeline:
 ```bash
 bash run.sh
+
