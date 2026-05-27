@@ -1,4 +1,5 @@
 chroma_db/
+milvus_lite_smoke.db*
 __pycache__/
 .ipynb_checkpoints/
 *.py[cod]

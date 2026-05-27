@@ -1,1 +1,3 @@
 chromadb
+jieba
+pymilvus[milvus-lite]
