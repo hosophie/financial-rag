@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="460" viewBox="0 0 880 460">
+  <rect width="880" height="460" fill="#f7f7f2"/>
+  <text x="32" y="44" font-family="Arial, sans-serif" font-size="28" fill="#222">CATL 2024 Risk Map</text>
+  <text x="32" y="74" font-family="Arial, sans-serif" font-size="15" fill="#555">Impact score: 0 low, 10 high. Bubble size reflects management attention.</text>
+
+  <rect x="44" y="112" width="230" height="110" rx="8" fill="#d9f1ec" stroke="#59a996"/>
+  <text x="66" y="144" font-family="Arial, sans-serif" font-size="19" fill="#12493f">Raw materials</text>
+  <text x="66" y="174" font-family="Arial, sans-serif" font-size="17" fill="#12493f">Impact: 8.5 / 10</text>
+  <text x="66" y="202" font-family="Arial, sans-serif" font-size="15" fill="#12493f">Lithium sensitivity: high</text>
+
+  <rect x="324" y="112" width="230" height="110" rx="8" fill="#fff2cc" stroke="#d6a93a"/>
+  <text x="346" y="144" font-family="Arial, sans-serif" font-size="19" fill="#6b4a00">Trade policy</text>
+  <text x="346" y="174" font-family="Arial, sans-serif" font-size="17" fill="#6b4a00">Impact: 7.8 / 10</text>
+  <text x="346" y="202" font-family="Arial, sans-serif" font-size="15" fill="#6b4a00">EU exposure: 26%</text>
+
+  <rect x="604" y="112" width="230" height="110" rx="8" fill="#f8d6d2" stroke="#ca635c"/>
+  <text x="626" y="144" font-family="Arial, sans-serif" font-size="19" fill="#6d211d">Subsidy change</text>
+  <text x="626" y="174" font-family="Arial, sans-serif" font-size="17" fill="#6d211d">Impact: 6.2 / 10</text>
+  <text x="626" y="202" font-family="Arial, sans-serif" font-size="15" fill="#6d211d">Policy markets: 5</text>
+
+  <rect x="180" y="282" width="230" height="110" rx="8" fill="#dde8ff" stroke="#668de0"/>
+  <text x="202" y="314" font-family="Arial, sans-serif" font-size="19" fill="#1f3e82">Customer mix</text>
+  <text x="202" y="344" font-family="Arial, sans-serif" font-size="17" fill="#1f3e82">Top-5 share: 43%</text>
+  <text x="202" y="372" font-family="Arial, sans-serif" font-size="15" fill="#1f3e82">Concentration risk: medium</text>
+
+  <rect x="470" y="282" width="230" height="110" rx="8" fill="#e8ddff" stroke="#8a6be0"/>
+  <text x="492" y="314" font-family="Arial, sans-serif" font-size="19" fill="#463084">Capacity plan</text>
+  <text x="492" y="344" font-family="Arial, sans-serif" font-size="17" fill="#463084">Utilization: 78%</text>
+  <text x="492" y="372" font-family="Arial, sans-serif" font-size="15" fill="#463084">New lines: 4 projects</text>
+</svg>

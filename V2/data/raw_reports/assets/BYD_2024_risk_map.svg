@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="460" viewBox="0 0 880 460">
+  <rect width="880" height="460" fill="#f7f7f2"/>
+  <text x="32" y="44" font-family="Arial, sans-serif" font-size="28" fill="#222">BYD 2024 Risk and Business Map</text>
+  <text x="32" y="74" font-family="Arial, sans-serif" font-size="15" fill="#555">Cards combine risk scores with operating metrics that can be queried.</text>
+
+  <rect x="44" y="112" width="230" height="110" rx="8" fill="#ffe0cc" stroke="#db7c38"/>
+  <text x="66" y="144" font-family="Arial, sans-serif" font-size="19" fill="#70320a">Price competition</text>
+  <text x="66" y="174" font-family="Arial, sans-serif" font-size="17" fill="#70320a">Impact: 8.2 / 10</text>
+  <text x="66" y="202" font-family="Arial, sans-serif" font-size="15" fill="#70320a">ASP pressure: -4.6%</text>
+
+  <rect x="324" y="112" width="230" height="110" rx="8" fill="#d9f1ec" stroke="#59a996"/>
+  <text x="346" y="144" font-family="Arial, sans-serif" font-size="19" fill="#12493f">Certification</text>
+  <text x="346" y="174" font-family="Arial, sans-serif" font-size="17" fill="#12493f">Impact: 6.9 / 10</text>
+  <text x="346" y="202" font-family="Arial, sans-serif" font-size="15" fill="#12493f">Avg delay: 5 months</text>
+
+  <rect x="604" y="112" width="230" height="110" rx="8" fill="#dde8ff" stroke="#668de0"/>
+  <text x="626" y="144" font-family="Arial, sans-serif" font-size="19" fill="#1f3e82">FX volatility</text>
+  <text x="626" y="174" font-family="Arial, sans-serif" font-size="17" fill="#1f3e82">Impact: 5.8 / 10</text>
+  <text x="626" y="202" font-family="Arial, sans-serif" font-size="15" fill="#1f3e82">Export revenue: 18%</text>
+
+  <rect x="180" y="282" width="230" height="110" rx="8" fill="#f8d6d2" stroke="#ca635c"/>
+  <text x="202" y="314" font-family="Arial, sans-serif" font-size="19" fill="#6d211d">Supply chain</text>
+  <text x="202" y="344" font-family="Arial, sans-serif" font-size="17" fill="#6d211d">Impact: 7.4 / 10</text>
+  <text x="202" y="372" font-family="Arial, sans-serif" font-size="15" fill="#6d211d">Self-supply ratio: 63%</text>
+
+  <rect x="470" y="282" width="230" height="110" rx="8" fill="#fff2cc" stroke="#d6a93a"/>
+  <text x="492" y="314" font-family="Arial, sans-serif" font-size="19" fill="#6b4a00">Channels</text>
+  <text x="492" y="344" font-family="Arial, sans-serif" font-size="17" fill="#6b4a00">Overseas stores: 940</text>
+  <text x="492" y="372" font-family="Arial, sans-serif" font-size="15" fill="#6b4a00">New markets: 12</text>
+</svg>
